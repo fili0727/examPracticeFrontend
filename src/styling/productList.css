@@ -1,0 +1,60 @@
+/* ProductList.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0f4; /* Light background to complement the pink theme */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh;
+}
+
+table {
+    width: 100%; /* Wider table */
+    border-collapse: collapse;
+    margin: 20px auto; /* Center table and provide some spacing */
+    background-color: #fff3f8;
+    color: #333;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #f2c1d1;
+    text-align: left;
+}
+
+th {
+    background-color: #f8d7e0;
+}
+
+button {
+    background-color: #e0608c; /* Darker pink when not hovered */
+    color:  #f09eb9;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #ff70a6; /* Lighter pink when hovered */
+     color: white;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #f2c1d1;
+    border-radius: 5px;
+    display: block;
+    width: calc(100% - 20px); /* Full width with padding considered */
+}
+
+h1, h2 {
+    color: #ff70a6;
+}
+

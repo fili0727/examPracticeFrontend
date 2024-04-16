@@ -1,7 +1,7 @@
 
 import { Routes, Route } from 'react-router-dom';
-import LandingPage from './components/LandingPage';
-import ProductList from './components/ProductList';
+import LandingPage from './Pages/LandingPage.tsx';
+import ProductList from './Pages/ProductPage.tsx';
 
 
 export default function App () {
@@ -9,10 +9,7 @@ export default function App () {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/products" element={<ProductList />} />
-   
       </Routes>
-
-
 
   )
 
