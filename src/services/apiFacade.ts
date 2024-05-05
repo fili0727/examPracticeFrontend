@@ -61,7 +61,11 @@ async function deleteProduct(id: number) {
 
   if (response.ok) {
     console.log("Product deleted.");
+  } else {
+   alert("Failed to delete product with id: " + id + " due to it being in a product order.");
+  
   }
+
 }
 
 async function addProductToProductOrder(newProductOrder: ProductOrder): Promise<Product> {
@@ -82,7 +86,7 @@ async function deleteProductOrder(id: number) {
 
   if (response.ok) {
     console.log("Product order deleted.");
-  }
+  } 
 
 }
 
